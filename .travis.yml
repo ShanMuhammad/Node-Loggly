@@ -10,7 +10,7 @@ before_install:
   - travis_retry npm install --loglevel=http
 
 script:
-  - npm test-as-mock
+  - npm run test-as-mock
 
 matrix:
   allow_failures:
